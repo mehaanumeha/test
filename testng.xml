@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="shubham.Chekout"/>
+    </classes>
+    </test>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <test thread-count="5" name="OC">
+    <classes>
+      <class name="shubham.Opencart"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="TestLaptop">
+    <classes>
+      <class name="shubham.TestLaptop"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="TestPC">
+    <classes>
+      <class name="shubham.TestPCelement"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="TestTablet">
+    <classes>
+      <class name="shubham.TestTablet"/>
+    </classes>
+      </test> <!-- Test -->
+</suite> <!-- Suite -->
